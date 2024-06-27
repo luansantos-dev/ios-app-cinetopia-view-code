@@ -10,7 +10,6 @@
 		B99A95222C2E067300FB3337 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B99A95212C2E067300FB3337 /* AppDelegate.swift */; };
 		B99A95242C2E067300FB3337 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B99A95232C2E067300FB3337 /* SceneDelegate.swift */; };
 		B99A95262C2E067300FB3337 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B99A95252C2E067300FB3337 /* ViewController.swift */; };
-		B99A95292C2E067300FB3337 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = B99A95282C2E067300FB3337 /* Base */; };
 		B99A952B2C2E067300FB3337 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B99A952A2C2E067300FB3337 /* Assets.xcassets */; };
 		B99A952E2C2E067400FB3337 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = B99A952D2C2E067300FB3337 /* Base */; };
 		B99A95392C2E067400FB3337 /* CinetopiaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B99A95382C2E067400FB3337 /* CinetopiaTests.swift */; };
@@ -40,7 +39,6 @@
 		B99A95212C2E067300FB3337 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B99A95232C2E067300FB3337 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		B99A95252C2E067300FB3337 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		B99A95282C2E067300FB3337 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		B99A952A2C2E067300FB3337 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B99A952D2C2E067300FB3337 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B99A952F2C2E067400FB3337 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -102,7 +100,6 @@
 				B99A95212C2E067300FB3337 /* AppDelegate.swift */,
 				B99A95232C2E067300FB3337 /* SceneDelegate.swift */,
 				B99A95252C2E067300FB3337 /* ViewController.swift */,
-				B99A95272C2E067300FB3337 /* Main.storyboard */,
 				B99A952A2C2E067300FB3337 /* Assets.xcassets */,
 				B99A952C2C2E067300FB3337 /* LaunchScreen.storyboard */,
 				B99A952F2C2E067400FB3337 /* Info.plist */,
@@ -233,7 +230,6 @@
 			files = (
 				B99A952B2C2E067300FB3337 /* Assets.xcassets in Resources */,
 				B99A952E2C2E067400FB3337 /* Base in Resources */,
-				B99A95292C2E067300FB3337 /* Base in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -297,14 +293,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		B99A95272C2E067300FB3337 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				B99A95282C2E067300FB3337 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		B99A952C2C2E067300FB3337 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -447,7 +435,7 @@
 				INFOPLIST_FILE = Cinetopia/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UIMainStoryboardFile = "";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -457,9 +445,13 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = co.luansantos.Cinetopia;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -475,7 +467,6 @@
 				INFOPLIST_FILE = Cinetopia/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -485,9 +476,13 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = co.luansantos.Cinetopia;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
