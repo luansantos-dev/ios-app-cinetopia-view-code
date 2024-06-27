@@ -9,7 +9,7 @@
 /* Begin PBXBuildFile section */
 		B99A95222C2E067300FB3337 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B99A95212C2E067300FB3337 /* AppDelegate.swift */; };
 		B99A95242C2E067300FB3337 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B99A95232C2E067300FB3337 /* SceneDelegate.swift */; };
-		B99A95262C2E067300FB3337 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B99A95252C2E067300FB3337 /* ViewController.swift */; };
+		B99A95262C2E067300FB3337 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B99A95252C2E067300FB3337 /* HomeViewController.swift */; };
 		B99A952B2C2E067300FB3337 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B99A952A2C2E067300FB3337 /* Assets.xcassets */; };
 		B99A952E2C2E067400FB3337 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = B99A952D2C2E067300FB3337 /* Base */; };
 		B99A95392C2E067400FB3337 /* CinetopiaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B99A95382C2E067400FB3337 /* CinetopiaTests.swift */; };
@@ -38,7 +38,7 @@
 		B99A951E2C2E067300FB3337 /* Cinetopia.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Cinetopia.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B99A95212C2E067300FB3337 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B99A95232C2E067300FB3337 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		B99A95252C2E067300FB3337 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		B99A95252C2E067300FB3337 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		B99A952A2C2E067300FB3337 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B99A952D2C2E067300FB3337 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B99A952F2C2E067400FB3337 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -97,9 +97,9 @@
 		B99A95202C2E067300FB3337 /* Cinetopia */ = {
 			isa = PBXGroup;
 			children = (
+				B99A95512C2E0BAC00FB3337 /* View */,
 				B99A95212C2E067300FB3337 /* AppDelegate.swift */,
 				B99A95232C2E067300FB3337 /* SceneDelegate.swift */,
-				B99A95252C2E067300FB3337 /* ViewController.swift */,
 				B99A952A2C2E067300FB3337 /* Assets.xcassets */,
 				B99A952C2C2E067300FB3337 /* LaunchScreen.storyboard */,
 				B99A952F2C2E067400FB3337 /* Info.plist */,
@@ -122,6 +122,14 @@
 				B99A95442C2E067400FB3337 /* CinetopiaUITestsLaunchTests.swift */,
 			);
 			path = CinetopiaUITests;
+			sourceTree = "<group>";
+		};
+		B99A95512C2E0BAC00FB3337 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				B99A95252C2E067300FB3337 /* HomeViewController.swift */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -254,7 +262,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B99A95262C2E067300FB3337 /* ViewController.swift in Sources */,
+				B99A95262C2E067300FB3337 /* HomeViewController.swift in Sources */,
 				B99A95222C2E067300FB3337 /* AppDelegate.swift in Sources */,
 				B99A95242C2E067300FB3337 /* SceneDelegate.swift in Sources */,
 			);
