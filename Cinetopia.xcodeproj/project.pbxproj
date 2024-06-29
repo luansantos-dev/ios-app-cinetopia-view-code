@@ -15,6 +15,7 @@
 		B99A95392C2E067400FB3337 /* CinetopiaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B99A95382C2E067400FB3337 /* CinetopiaTests.swift */; };
 		B99A95432C2E067400FB3337 /* CinetopiaUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B99A95422C2E067400FB3337 /* CinetopiaUITests.swift */; };
 		B99A95452C2E067400FB3337 /* CinetopiaUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B99A95442C2E067400FB3337 /* CinetopiaUITestsLaunchTests.swift */; };
+		B99A95552C2E26C900FB3337 /* MoviesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B99A95542C2E26C900FB3337 /* MoviesViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		B99A953E2C2E067400FB3337 /* CinetopiaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CinetopiaUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B99A95422C2E067400FB3337 /* CinetopiaUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CinetopiaUITests.swift; sourceTree = "<group>"; };
 		B99A95442C2E067400FB3337 /* CinetopiaUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CinetopiaUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		B99A95542C2E26C900FB3337 /* MoviesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoviesViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -128,6 +130,7 @@
 			isa = PBXGroup;
 			children = (
 				B99A95252C2E067300FB3337 /* HomeViewController.swift */,
+				B99A95542C2E26C900FB3337 /* MoviesViewController.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -265,6 +268,7 @@
 				B99A95262C2E067300FB3337 /* HomeViewController.swift in Sources */,
 				B99A95222C2E067300FB3337 /* AppDelegate.swift in Sources */,
 				B99A95242C2E067300FB3337 /* SceneDelegate.swift in Sources */,
+				B99A95552C2E26C900FB3337 /* MoviesViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
